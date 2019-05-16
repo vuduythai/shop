@@ -1,0 +1,49 @@
+.hr-10 {
+    height: 10px;
+}
+.hr-20 {
+    height: 20px;
+}
+.login-page {
+    background-color: #e8e8e8;
+}
+#login-box {
+    border: 1px #cccccc solid;
+    position: relative;
+    z-index: 0;
+}
+.login-logo {
+    margin-bottom: 0;
+    background-color: #dcfff5;
+    border-bottom: 1px #cccccc solid;
+}
+#sign-in-button {
+    background-color: #17171e;
+    color: #ffffff;
+    border: 1px #cccccc solid;
+    height: 50px;
+    font-size: 24px;
+}
+.form-control-feedback {
+    left: 0;
+    top: 8px;
+}
+#email, #password {
+    text-indent: 20px;
+    height: 50px;
+}
+#forgot-password {
+    margin: 20px -10px;
+
+}
+#forgot-password a {
+    color: #666;
+}
+#shop-title {
+    position: relative;
+    bottom: 17px;
+}
+#header-login {
+    height: 10px;
+    background-color: #17171e;
+}

@@ -1,0 +1,77 @@
+body {
+    color: #8a8888;
+}
+.text-20 {
+    font-size: 20px;
+}
+.text-16 {
+    font-size: 16px;
+}
+#content {
+    margin: 20px 0;
+}
+.table-requirement tr:nth-child(even) {
+    background-color: #ececec;
+}
+.table-configuration {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px #e3e3e3 solid;
+    border-radius: 3px;
+}
+.table-configuration tr td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+}
+.table-configuration tr td input {
+    border-radius: 3px;
+}
+.required {
+    color: #c44930;
+    font-size: 16px;
+}
+#sidebar {
+    margin-top: 20px;
+}
+#sidebar li {
+    list-style: none;
+}
+#sidebar li.active {
+    font-weight: bold;
+}
+.fa-check-circle-o {
+    color: #35b14d;
+    font-size: 20px;
+}
+.fa-exclamation-circle {
+    color: #c44930;
+    font-size: 20px;
+}
+.config-form-text p{
+    margin: 20px 0;
+}
+.config-form-input input {
+    margin: 10px 0;
+}
+.fa-check-circle-o-complete {
+    font-size: 40px;
+}
+.complete-go-div {
+    background-color: #ededed;
+    position: relative;
+    min-height: 160px;
+}
+.go-to {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    text-align: center;
+    color: #3d3a3a;
+}
+.complete-title {
+    margin: 50px 0 80px;
+}

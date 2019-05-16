@@ -1,0 +1,1 @@
+- add slir, tinymce and kcfinder here

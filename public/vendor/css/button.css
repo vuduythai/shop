@@ -1,0 +1,54 @@
+.btn-primary {
+    color: #fff;
+    background-color: #5867dd;
+    border-color: #5867dd;
+}
+.btn-secondary {
+    background: white;
+    border-color: #ebedf2;
+}
+.btn-success {
+    color: #fff;
+    background-color: #34bfa3;
+    border-color: #34bfa3;
+}
+.btn-info {
+    color: #fff;
+    background-color: #36a3f7;
+    border-color: #36a3f7;
+}
+.btn-warning {
+    color: #212529;
+    background-color: #ffb822;
+    border-color: #ffb822;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #f4516c;
+    border-color: #f4516c;
+}
+.btn-link {
+    font-weight: 400;
+    color: #5867dd;
+    background-color: transparent;
+}
+.gradient-to-primary {
+    color: #fff;
+    background: linear-gradient(135deg, #4053de 30%, #1892ef 100%);
+}
+.gradient-to-success {
+    color: #fff;
+    background: linear-gradient(135deg, #2fac93 30%, #3cabb8 100%);
+}
+.gradient-to-danger {
+    color: #fff;
+    background: linear-gradient(135deg, #f14f6a 30%, #f4b121 100%);
+}
+.gradient-to-warning {
+    color: #fff;
+    background: linear-gradient(135deg, #fbb621 30%, #f14f6a 100%);
+}
+.gradient-to-info {
+    color: #fff;
+    background: linear-gradient(135deg, #35a0f3 30%, #3ec4d4 100%);
+}

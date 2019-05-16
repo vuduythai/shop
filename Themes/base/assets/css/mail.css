@@ -1,0 +1,46 @@
+.email-body {
+    background-color: #cdcdcf;
+    padding: 20px 0;
+}
+.email-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.header-email {
+    background-color: #222223;
+    position: relative;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 20px;
+}
+.header-email p {
+    font-size: 24px;
+    color: #ffffff;
+}
+.content-email {
+    padding: 20px;
+    line-height: 30px;
+    border: 1px black solid;
+    background-color: #ffffff;
+}
+.text-red {
+    color: #ed0f29;
+}
+#mail-order, h4 {
+    color: #000000;
+}
+#mail-table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#mail-table td, #mail-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#mail-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f0f0f0;
+}

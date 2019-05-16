@@ -1,0 +1,33 @@
+{% extends "mails.layout" %}
+
+{% block content %}
+    <div id="mail-order">
+        <b>Thank you for purchase our product !!!</b><br/>
+        Order Id : {{ data.orderId | strPad }}<br/>
+        <table id="mail-table">
+            <tr>
+                <th>Name</th>
+                <th>Quality</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+            {% for product in data.cart %}
+                <tr>
+                    <td>{{ product.name }}</td>
+                    <td>{{ product.qty }}</td>
+                    <td>{{ product.price | displayPriceAndCurrency}}</td>
+                    <td>{{ product.total_price_per_item | displayPriceAndCurrency}}</td>
+                </tr>
+            {% endfor %}
+            <tr>
+                <td colspan="3"></td>
+                <td>Shipping Cost : {{ data.shipping_cost | displayPriceAndCurrency}}</td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td>Total: {{ data.total | displayPriceAndCurrency}}</td>
+            </tr>
+        </table>
+        <br/>
+    </div>
+{% endblock %}

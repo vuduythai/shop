@@ -1,0 +1,12 @@
+{% extends "mails.layout" %}
+
+{% block content %}
+
+<h3>There is a message sent to you :</h3>
+- Name of sender: {{ data.name }} <br/>
+- Email of sender: {{ data.email }} <br/>
+- Phone of sender: {{ data.phone }} <br/>
+- Message of sender:  <br/>
+{{ data.message }}
+
+{% endblock %}
